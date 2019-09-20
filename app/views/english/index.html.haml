@@ -1,0 +1,16 @@
+.body
+  .form-box
+    .form-box__header
+      %span.form-box__header__left
+        %p.form-box__header__left__text 英語
+      %span.form-box__header__right
+        %p.form-box__header__right__text 日本語
+    .form-box__main
+      %span.form-box__main__left
+        = form_tag('/', method: :get) do
+          %textarea#english-search-field.form-box__main__left__text{:name => "keyword", :placeholder => "テキストを入力", :style => "border:none;", :type => "text"}
+      %span.form-box__main__right
+        .form-box__main__right__text{:placeholder => "翻訳"}
+          #search_result
+  .footer
+    %a{:href => "/english/new"} New Word

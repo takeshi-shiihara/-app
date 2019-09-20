@@ -1,0 +1,42 @@
+body{
+  .contents{
+    height: 500px;
+    .success{
+      background: url("https://i.ytimg.com/vi/DARGtk2Hnrc/hqdefault.jpg");
+      background-size: cover;
+      text-align: center;
+      height: 360px;
+      width: 480px;
+      margin: 0 auto;
+      h3{
+        display: block;
+        margin-bottom: 40px;
+        color: #fff;
+      }
+      .lemon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 270px;
+        a.btn{
+          width:200px;
+          font-size:24px;
+          font-weight:bold;
+          text-decoration:none;
+          display:block;
+          text-align:center;
+          padding:8px 0 10px;
+          color:#fff;
+          background-color:#49a9d4;
+          border-radius: 25px;
+          box-shadow:4px 4px #555;
+        }
+      }
+    }
+  }
+}
+
+input{
+  height: 40px;
+  width: 200px;
+}
